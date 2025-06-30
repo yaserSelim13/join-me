@@ -4,26 +4,32 @@
   <meta charset="UTF-8" />
   <title>JoinMe</title>
   <script src="/js/i18n.js"></script>
-</head>
-<body>
-  <h1 data-i18n="title"></h1>
-  <p data-i18n="description"></p>
-  <a data-i18n="privacyLink" data-href-i18n="privacy" href="/privacy-policy.html">Privacy</a>
-  <br>
-  <a data-i18n="termsLink" data-href-i18n="terms" href="/terms.html">Terms</a>
-  <br><br>
-  <button onclick="setLang('en')">English</button>
-  <button onclick="setLang('de')">Deutsch</button>
-
-  <script>
-    function setLang(lang) {
-      localStorage.setItem('lang', lang);
-      loadLanguage(lang);
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 1rem;
     }
 
-    const currentLang = new URLSearchParams(location.search).get("lang") ||
-                        localStorage.getItem("lang") || "en";
-    loadLanguage(currentLang);
-  </script>
-</body>
-</html>
+    .lang-menu {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+    }
+
+    .lang-menu select {
+      font-size: 1rem;
+      padding: 0.25rem;
+    }
+
+    h1 {
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Language Switcher -->
+  <div class="lang-menu">
+    <select id="langSelector" onchange="setLang(this.value)">
+      <option value="en">🇬🇧 English</option>
