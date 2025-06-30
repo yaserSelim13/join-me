@@ -2,21 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Privacy Policy – JoinMe</title>
-  <script src="lang.js" defer></script>
+  <title>Privacy Policy</title>
+  <script src="/js/i18n.js"></script>
 </head>
 <body>
-  <div style="padding: 2em;">
-    <h1 data-en="Privacy Policy" data-de="Datenschutzerklärung"></h1>
-    <p data-en="We respect your privacy. This app does not collect any personal data."
-       data-de="Wir respektieren Ihre Privatsphäre. Diese App sammelt keine persönlichen Daten."></p>
+  <h1 data-i18n="privacyLink"></h1>
+  <p>... actual policy content here ...</p>
 
-    <p><a href="/" data-en="Back to Home" data-de="Zurück zur Startseite"></a></p>
+  <a href="/index.html" id="backLink">← Back</a>
+  <br><br>
+  <button onclick="setLang('en')">English</button>
+  <button onclick="setLang('de')">Deutsch</button>
 
-    <div>
-      <button data-set-lang="en">🇬🇧 English</button>
-      <button data-set-lang="de">🇩🇪 Deutsch</button>
-    </div>
-  </div>
+  <script>
+    function setLang(lang) {
+      localStorage.setItem('lang', lang);
+      loadLanguage(lang);
+      document.getElementById("backLink").href = `/index.html?lang=${lang}`;
+    }
+
+    const currentLang = new URLSearchParams(location.search).get("lang") ||
+                        localStorage.getItem("lang") || "en";
+    loadLanguage(currentLang);
+    document.getElementById("backLink").href = `/index.html?lang=${currentLang}`;
+  </script>
 </body>
 </html>
