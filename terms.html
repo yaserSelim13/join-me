@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Terms and Conditions</title>
+  <script src="/js/i18n.js"></script>
+</head>
+<body>
+  <h1 data-i18n="termsLink"></h1>
+  <p>
+    <!-- Your terms and conditions content goes here -->
+    These are the terms and conditions for using JoinMe. By using the app, you agree to the following...
+  </p>
+
+  <a href="/index.html" id="backLink">← Back</a>
+  <br><br>
+  <button onclick="setLang('en')">English</button>
+  <button onclick="setLang('de')">Deutsch</button>
+
+  <script>
+    function setLang(lang) {
+      localStorage.setItem('lang', lang);
+      loadLanguage(lang);
+      document.getElementById("backLink").href = `/index.html?lang=${lang}`;
+    }
+
+    const currentLang = new URLSearchParams(location.search).get("lang") ||
+                        localStorage.getItem("lang") || "en";
+    loadLanguage(currentLang);
+    document.getElementById("backLink").href = `/index.html?lang=${currentLang}`;
+  </script>
+</body>
+</html>
