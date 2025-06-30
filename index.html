@@ -2,22 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>JoinMe – Coming Soon</title>
-  <script src="lang.js" defer></script>
+  <title>JoinMe</title>
+  <script src="/js/i18n.js"></script>
 </head>
 <body>
-  <div style="text-align:center; margin-top: 100px;">
-    <h1 data-en="JoinMe is coming soon!" data-de="JoinMe kommt bald!"></h1>
-    <p data-en="We're working hard on the app." data-de="Wir arbeiten fleißig an der App."></p>
+  <h1 data-i18n="title"></h1>
+  <p data-i18n="description"></p>
+  <a data-i18n="privacyLink" data-href-i18n="privacy" href="/privacy-policy.html">Privacy</a>
+  <br>
+  <a data-i18n="termsLink" data-href-i18n="terms" href="/terms.html">Terms</a>
+  <br><br>
+  <button onclick="setLang('en')">English</button>
+  <button onclick="setLang('de')">Deutsch</button>
 
-    <p>
-      <a href="/privacy-policy.html" data-en="Privacy Policy" data-de="Datenschutz"></a>
-    </p>
+  <script>
+    function setLang(lang) {
+      localStorage.setItem('lang', lang);
+      loadLanguage(lang);
+    }
 
-    <div>
-      <button data-set-lang="en">🇬🇧 English</button>
-      <button data-set-lang="de">🇩🇪 Deutsch</button>
-    </div>
-  </div>
+    const currentLang = new URLSearchParams(location.search).get("lang") ||
+                        localStorage.getItem("lang") || "en";
+    loadLanguage(currentLang);
+  </script>
 </body>
 </html>
