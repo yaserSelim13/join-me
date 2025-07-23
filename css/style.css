@@ -53,12 +53,35 @@ nav a:hover {
     position: absolute;
     top: 1rem;
     right: 1.5rem;
+    z-index: 1000;
 }
 
 .lang-menu select {
     font-size: 1rem;
-    padding: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: white;
+    min-width: 120px;
+    max-width: 150px;
+    appearance: none;
+    cursor: pointer;
 }
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    .lang-menu {
+        top: 0.5rem;
+        right: 1rem;
+    }
+
+    .lang-menu select {
+        font-size: 0.9rem;
+        padding: 0.3rem 0.5rem;
+        min-width: 100px;
+    }
+}
+
 
 .section {
     padding: 3rem 1rem;
