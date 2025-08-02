@@ -8,6 +8,7 @@ const translations = {
       how: "How it works",
       safety: "Safety",
       screenshots: "Screenshots",
+      documentation: "Documentation",
       faq: "FAQ"
     },
     index: {
@@ -50,6 +51,7 @@ const translations = {
       how: "Wie es funktioniert",
       safety: "Sicherheit",
       screenshots: "Screenshots",
+      documentation: "Dokumentation",
       faq: "FAQ"
     },
     index: {
