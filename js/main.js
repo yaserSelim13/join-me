@@ -32,6 +32,11 @@ const translations = {
           "\n" +
           "        Life’s too short to just watch from the sidelines — jump in and start making memories today with JoinMe!"
     },
+    registered: {
+      pageTitle: "Registration Successful",
+      title: "You're all set!",
+      text: "🎉 Your registration was successful. You can now close this page and return to the JoinMe app to start using it."
+    },
     feature1Title: "👤 Profiles",
     feature1Text: "Everyone creates a profile with interests and location. Easy to discover and connect.",
     feature2Title: "💬 Chat",
@@ -61,6 +66,11 @@ const translations = {
     why: {
       title: "Warum JoinMe?",
       text: "JoinMe bietet dir den einfachsten Weg, Menschen mit ähnlichen Interessen kennenzulernen. Egal, ob du neu in der Stadt bist, neue Freunde suchst oder Veranstaltungen organisierst – JoinMe ist der perfekte Startpunkt."
+    },
+    registered: {
+      pageTitle: "Registrierung erfolgreich",
+      title: "Du bist startklar!",
+      text: "🎉 Deine Registrierung war erfolgreich. Du kannst diese Seite jetzt schließen und zur JoinMe-App zurückkehren, um loszulegen."
     },
     feature1Title: "👤 Profile",
     feature1Text: "Jeder erstellt ein Profil mit Interessen und Standort. Einfach entdecken und vernetzen.",
