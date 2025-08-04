@@ -15,6 +15,15 @@ const translations = {
       heading: "How JoinMe Works",
       description: "JoinMe helps you meet new people in your area based on your interests. Join events, chat with members, and enjoy real-life meetups."
     },
+    safety: {
+      title: "Safety Standards",
+      intro: "We are committed to keeping JoinMe a safe space for all users, especially protecting minors from abuse or exploitation.",
+      section1: { title: "1. Content Moderation", text: "Inappropriate content or behavior can be reported by users directly within the app. All reports are reviewed promptly to ensure a safe environment for everyone." },
+      section2: { title: "2. Age Restrictions", text: "JoinMe is intended for users 18 and older. We monitor reports of underage usage and remove accounts that violate this policy." },
+      section3: { title: "3. Reporting Tools", text: "Users can report harmful behavior through the app. We respond to all safety-related reports within 24 hours." },
+      section4: { title: "4. Law Enforcement Cooperation", text: "We report CSAE content to appropriate authorities, including NCMEC or INHOPE." },
+      section5: { title: "5. Contact Information", text: "To report abuse, email us at" },
+    },
     why: {
       title: "Why JoinMe?",
       text: "  Sick of scrolling through endless cat videos and memes?\n" +
@@ -62,6 +71,15 @@ const translations = {
     index: {
       heading: "Wie JoinMe funktioniert",
       description: "JoinMe hilft dir, neue Leute in deiner Umgebung zu treffen. Nimm an Events teil, chatte mit anderen und verabrede dich im echten Leben."
+    },
+    safety: {
+      title: "Sicherheitsrichtlinien",
+      intro: "Wir setzen uns dafür ein, JoinMe zu einem sicheren Ort für alle Nutzer zu machen, insbesondere zum Schutz von Minderjährigen vor Missbrauch oder Ausbeutung.",
+      section1: { title: "1. Inhaltsmoderation", text: "Unangemessene Inhalte oder Verhaltensweisen können direkt in der App von Nutzern gemeldet werden. Alle Meldungen werden zeitnah geprüft, um eine sichere Umgebung für alle zu gewährleisten." },
+      section2: { title: "2. Altersbeschränkungen", text: "JoinMe ist für Nutzer ab 18 Jahren vorgesehen. Wir überwachen Berichte über Minderjährige und entfernen entsprechende Konten." },
+      section3: { title: "3. Meldetools", text: "Nutzer können schädliches Verhalten direkt in der App melden. Wir reagieren innerhalb von 24 Stunden auf sicherheitsrelevante Meldungen." },
+      section4: { title: "4. Zusammenarbeit mit Behörden", text: "Wir melden CSAE-Inhalte an die zuständigen Behörden, einschließlich NCMEC oder INHOPE." },
+      section5: { title: "5. Kontaktinformation", text: "Um Missbrauch zu melden, senden Sie uns eine E-Mail an" },
     },
     why: {
       title: "Warum JoinMe?",
