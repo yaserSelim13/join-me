@@ -15,8 +15,22 @@
             <option value="de">🇩🇪 Deutsch</option>
         </select>
     </div>
-    <h1 data-i18n="title">JoinMe</h1>
+
+    <div class="branding">
+        <img src="images/logo.png" alt="JoinMe App Logo" class="logo"/>
+        <h1 data-i18n="title">JoinMe</h1>
+    </div>
     <p data-i18n="subtitle">Meet new people in real life</p>
+
+    <div class="store-buttons">
+        <a href="https://play.google.com/store/apps/details?id=YOUR_APP_ID" target="_blank">
+            <img src="images/google-play.png" alt="Get it on Google Play" class="store-badge"/>
+        </a>
+        <a href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank">
+            <img src="images/app-store.png" alt="Download on the App Store" class="store-badge"/>
+        </a>
+    </div>
+
 </header>
 
 <nav>
@@ -28,16 +42,22 @@
     <a href="documentation.html" data-i18n="nav.documentation">Documentation</a>  <!-- New link here -->
     <a href="faq.html" data-i18n="nav.faq">FAQ</a>
 </nav>
-<div class="section">
+<div class="section" style="flex">
     <h2 data-i18n="why.title">Why JoinMe?</h2>
     <p data-i18n="why.text">
         JoinMe gives you the easiest way to meet people who share your interests. Whether you are new in town, looking for friends, or organizing events — JoinMe is the perfect place to start.
     </p>
 </div>
 <footer>
-    <a href="privacy-policy.html" data-i18n="privacyLink">Privacy</a>
-    <a href="terms.html" data-i18n="termsLink">Terms</a>
+    <a href="privacy-policy.html" target="_blank" data-i18n="footer.privacyLink">Privacy Policy</a>
+    <a href="terms.html" target="_blank" data-i18n="footer.termsLink">Terms</a>
+    <a href="mailto:support@join-me-app.com" data-i18n="footer.contact">Contact</a>:
+    <span class="support-email">support@join-me-app.com</span>
 </footer>
+
+
+<script src="js/en.js"></script>
+<script src="js/de.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
