@@ -1,13 +1,10 @@
 const translations_de = {
-    webTitle: "JoinMe | Lerne neue Menschen im echten Leben kennen!",
     title: "JoinMe",
-    title1: "Echte Menschen",
-    title2: "Echte Erlebnisse",
     subtitle: "Lerne neue Leute im echten Leben kennen",
     nav: {
         home: "Startseite",
         why: "Warum JoinMe",
-        how: "Funktionen",
+        how: "Wie es funktioniert",
         safety: "Sicherheit",
         screenshots: "Screenshots",
         documentation: "Dokumentation",
@@ -28,25 +25,7 @@ const translations_de = {
     },
     why: {
         title: "Warum JoinMe?",
-        text1: "Genug vom endlosen Scrollen durch kurze Videos und die neuesten Trends?\n" +
-            "Zeit, eine Pause vom Bildschirm zu machen und echte, coole Leute in deiner Nähe zu treffen!",
-        text2: "Egal, ob du neu in der Stadt bist, genug von endlosen Gaming-Marathons hast oder einfach neue Gesichter kennenlernen möchtest — JoinMe hilft dir, Kontakte zu knüpfen, Erlebnisse zu teilen und echte Erinnerungen im echten Leben zu schaffen.",
-        benefit1: "Finde Menschen mit gleichen Interessen",
-        benefit2: "Tritt Aktivitäten bei oder erstelle eigene – spontan oder geplant",
-        benefit3: "Mach aus Chats echte Lacher und gute Laune",
-        benefit4: "Entdecke deine Stadt mit neuen Augen",
-        activitiesTitle: "Was kannst du mit JoinMe machen?",
-        activitiesSubtitle: "Entfalte deine Fantasie. Deine Welt, deine Aktivitäten. Von ruhigen Spaziergängen im Park bis hin zu epischen Abenteuern oder außergewöhnlichen Hobbys – du kannst Aktivitäten gestalten, die du liebst, sicher und legal.",
-        examples: "Beispiele:",
-        activity1: "🌿 Geh im Park spazieren und versucht gemeinsam die Pflanzen zu bestimmen",
-        activity2: "🧗‍♀️ Entdecke lokale Kletterhallen mit anderen Abenteurern",
-        activity3: "🎨 Mach bei einem Street-Art- oder Sketch-Walk mit kreativen Köpfen mit",
-        activity4: "📚 Organisiere ein entspanntes Kaffee- & Buchtreffen in deinem Lieblingscafé",
-        activity5: "🎮 Starte einen lockeren Spieleabend – Brettspiele oder Mario Kart, du entscheidest!",
-        activity6: "🚴‍♂️ Erkunde deine Stadt bei einer gemeinsamen Radtour",
-        activity7: "🎤 Finde andere Karaoke-Fans und singt euch die Seele aus dem Leib",
-        activity8: "🍕 Triff dich zu einem Pizza-Picknick im Park – Diskussion über Beläge inklusive",
-        end: "Die einzige Grenze ist deine Fantasie — geh los und erschaffe unvergessliche Momente."
+        text: "JoinMe bietet dir den einfachsten Weg, Menschen mit ähnlichen Interessen kennenzulernen. Egal, ob du neu in der Stadt bist, neue Freunde suchst oder Veranstaltungen organisierst – JoinMe ist der perfekte Startpunkt."
     },
     registered: {
         pageTitle: "Registrierung erfolgreich",

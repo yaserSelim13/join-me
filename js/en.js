@@ -1,13 +1,10 @@
 const translations_en = {
-    webTitle: "JoinMe | Meet new people in real life!",
     title: "JoinMe",
-    title1: "Real People",
-    title2: "Real Moments",
     subtitle: "Meet new people in real life",
     nav: {
         home: "Home",
         why: "Why JoinMe",
-        how: "Features",
+        how: "How it works",
         safety: "Safety",
         screenshots: "Screenshots",
         documentation: "Documentation",
@@ -28,25 +25,20 @@ const translations_en = {
     },
     why: {
         title: "Why JoinMe?",
-        text1: "Sick of scrolling through endless short videos and the latest trends?\n" +
-            "Ready to take a break from your screen and actually meet awesome people nearby?",
-        text2: "Whether you’re new in town, tired of endless gaming marathons, or just craving fresh faces — JoinMe helps you connect, share, and make real-life memories.",
-        benefit1: "Find people who share your interests",
-        benefit2: "Join or create activities — spontaneous or planned",
-        benefit3: "Turn chats into real laughs and smiles",
-        benefit4: "Explore your city through new eyes",
-        activitiesTitle: "What Can You Do with JoinMe?",
-        activitiesSubtitle: "Unleash Your Imagination. Your world, your activities. From quiet walks in the park to epic adventures or quirky hobbies, you’re free to create activities you love — safely and legally.",
-        examples: "Examples:",
-        activity1: "🌿 Go for a walk in the park and try to name the plants together",
-        activity2: "🧗‍♀️ Discover local climbing gyms with other adventurers",
-        activity3: "🎨 Join a street art or sketch walk with creative minds",
-        activity4: "📚 Organize a chill coffee & book chat at your favorite café",
-        activity5: "🎮 Start a casual game night — board games or Mario Kart, your pick!",
-        activity6: "🚴‍♂️ Explore your city on a group bike ride",
-        activity7: "🎤 Find others who love karaoke and belt out some tunes",
-        activity8: "🍕 Meet for a pizza picnic in the park — toppings debate included",
-        end: "The only limit is your imagination — go create memorable moments."
+        text: "  Sick of scrolling through endless cat videos and memes?\n" +
+            "        Ready to take a break from your screen and actually meet cool people nearby?\n" +
+            "\n" +
+            "        Whether you’re new in town, bored of gaming marathons, or just craving some fresh faces — JoinMe is your go-to app for real-life fun!\n" +
+            "\n" +
+            "        Find friends who vibe with your interests\n" +
+            "\n" +
+            "        Join or create local events and hangouts\n" +
+            "\n" +
+            "        Discover your city through new eyes (and new people!)\n" +
+            "\n" +
+            "        Turn those online chats into real smiles and high-fives\n" +
+            "\n" +
+            "        Life’s too short to just watch from the sidelines — jump in and start making memories today with JoinMe!"
     },
     registered: {
         pageTitle: "Registration Successful",
