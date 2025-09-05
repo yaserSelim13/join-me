@@ -20,12 +20,15 @@ body {
 
 header {
     background: linear-gradient(135deg, var(--primary), #6aa9f9);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem 0 1rem;
     color: white;
-    position: relative;
+    position: sticky;
+    width: 100%;
     text-align: center;
 }
-
+.main-content {
+    overflow-y: auto;
+}
 header h1 {
     margin: 0;
     font-size: 2.5rem;
@@ -53,11 +56,10 @@ header p {
     gap: 1rem;
 }
 .store-badge {
-    height: 50px; /* adjust as needed */
+    height: 50px;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-/* Hover effect */
 .store-badge:hover {
     transform: scale(1.05);       /* slightly bigger */
     filter: brightness(1.1);       /* a little brighter */
@@ -66,6 +68,7 @@ header p {
 
 
 nav {
+    width: 100%;
     background: var(--primary);
     padding: 0.5rem 1rem;
     display: flex;
@@ -166,6 +169,104 @@ footer .support-email {
     font-weight: 500;
     margin-left: 0.25rem;
 }
+
+.why-joinme {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.why-intro p {
+    max-width: 700px;
+    margin: 0.5rem auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.benefit {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.benefit .emoji {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.activities {
+    margin-top: 3rem;
+}
+
+.activities h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);    gap: 1.5rem;
+}
+
+.activity-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    font-size: 1rem;
+    line-height: 1.4;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.activities .closing {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: var(--primary);
+}
+
+.hero {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-image: url('../images/FgEn.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero h1 {
+    margin: 0.5rem 0;
+    font-size: 4.5rem;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
 
 
 

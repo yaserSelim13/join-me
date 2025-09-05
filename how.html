@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Why JoinMe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8"/>
+    <title data-i18n="webTitle">JoinMe | Meet New People</title>
+    <link rel="icon" href="images/icon16.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 
@@ -30,30 +31,60 @@
             <img src="images/app-store.png" alt="Download on the App Store" class="store-badge"/>
         </a>
     </div>
+    <nav>
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="why.html" data-i18n="nav.why">Why JoinMe</a>
+        <a href="how.html" data-i18n="nav.how">Features</a>
+        <a href="safety.html" data-i18n="nav.safety">Safety</a>
+        <a href="screenshots.html" data-i18n="nav.screenshots">Screenshots</a>
+        <a href="documentation.html" data-i18n="nav.documentation">Documentation</a>  <!-- New link here -->
+        <a href="faq.html" data-i18n="nav.faq">FAQ</a>
 
+    </nav>
 </header>
 
-<nav>
-    <a href="index.html" data-i18n="nav.home">Home</a>
-    <a href="why.html" data-i18n="nav.why">Why JoinMe</a>
-    <a href="how.html" data-i18n="nav.how">How it works</a>
-    <a href="safety.html" data-i18n="nav.safety">Safety</a>
-    <a href="screenshots.html" data-i18n="nav.screenshots">Screenshots</a>
-    <a href="documentation.html" data-i18n="nav.documentation">Documentation</a>  <!-- New link here -->
-    <a href="faq.html" data-i18n="nav.faq">FAQ</a>
-</nav>
-<div class="section">
-    <h2 data-i18n="why.title">Why JoinMe?</h2>
-    <p data-i18n="why.text">
-        JoinMe gives you the easiest way to meet people who share your interests. Whether you are new in town, looking for friends, or organizing events — JoinMe is the perfect place to start.
-    </p>
+<div class="main-content">
+    <div class="section">
+        <h2 data-i18n="index.heading">How JoinMe Works</h2>
+        <p data-i18n="index.description">
+            JoinMe helps you meet new people in your area based on your interests.
+            Join activities, chat with members, and enjoy real-life meetups.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <h3 data-i18n="feature1Title">📍 Spontaneous</h3>
+                <p data-i18n="feature1Text">Life’s best moments are spontaneous. Create or join instant activities
+                    nearby —
+                    from a quick coffee to a late-night party. Perfect when you’re feeling social and want to meet
+                    people
+                    right now.</p>
+            </div>
+            <div class="feature">
+                <h3 data-i18n="feature2Title">📅 Planned</h3>
+                <p data-i18n="feature2Text">Turn ideas into real plans and make your week more exciting. Create your own
+                    activities or join those from others — today, tomorrow, or anytime in the next 7 days. From hiking
+                    and
+                    sports to shopping or study groups, it’s all up to you.</p>
+            </div>
+            <div class="feature">
+                <h3 data-i18n="feature3Title">✅ Safe & Flexible</h3>
+                <p data-i18n="feature3Text">Take charge of your meetups: approve who joins and chat only when you’re
+                    ready.
+                    See all activity details upfront — time, place, and type.
+                    Create your own adventures or join spontaneous and planned activities anytime.
+                    Feel secure, stay in control, and enjoy real-life connections on your terms.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="privacy-policy.html" target="_blank" data-i18n="footer.privacyLink">Privacy Policy</a>
+        <a href="terms.html" target="_blank" data-i18n="footer.termsLink">Terms</a>
+        <a href="mailto:support@join-me-app.com" data-i18n="footer.contact">Contact</a>:
+        <span class="support-email">support@join-me-app.com</span>
+    </footer>
 </div>
-<footer>
-    <a href="privacy-policy.html" target="_blank" data-i18n="footer.privacyLink">Privacy Policy</a>
-    <a href="terms.html" target="_blank" data-i18n="footer.termsLink">Terms</a>
-    <a href="mailto:support@join-me-app.com" data-i18n="footer.contact">Contact</a>:
-    <span class="support-email">support@join-me-app.com</span>
-</footer>
 <script src="js/en.js"></script>
 <script src="js/de.js"></script>
 <script src="js/main.js"></script>

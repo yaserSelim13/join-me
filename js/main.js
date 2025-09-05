@@ -10,14 +10,15 @@ function setLang(lang) {
 }
 
 function loadLanguage(lang) {
-  const t = translations[lang] || translations["en"];
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.dataset.i18n;
-    const keys = key.split('.');
-    let value = t;
-    for (const k of keys) value = value[k];
-    if (value) el.innerText = value;
-  });
+    const t = translations[lang] || translations["en"];
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.dataset.i18n;
+        const keys = key.split('.');
+        let value = t;
+        for (const k of keys) value = value[k];
+        if (value) el.textContent = value;
+    });
+
 }
 
 const currentLang = localStorage.getItem("lang") || "en";
