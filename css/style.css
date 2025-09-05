@@ -61,9 +61,9 @@ header p {
 }
 
 .store-badge:hover {
-    transform: scale(1.05);       /* slightly bigger */
-    filter: brightness(1.1);       /* a little brighter */
-    cursor: pointer;               /* makes it clear it's clickable */
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    cursor: pointer;
 }
 
 
