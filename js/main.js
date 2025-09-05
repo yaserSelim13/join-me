@@ -25,13 +25,3 @@ const currentLang = localStorage.getItem("lang") || "en";
 document.getElementById("langSelector").value = currentLang;
 loadLanguage(currentLang);
 
-const header = document.querySelector('header');
-const mainContent = document.querySelector('.main-content');
-
-function adjustMainMargin() {
-    mainContent.style.marginTop = header.offsetHeight + 'px';
-}
-
-window.addEventListener('load', adjustMainMargin);
-window.addEventListener('resize', adjustMainMargin);
-
