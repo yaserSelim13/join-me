@@ -15,7 +15,11 @@ const translations_de = {
     },
     index: {
         heading: "Wie JoinMe funktioniert",
-        description: "JoinMe hilft dir, neue Leute in deiner Umgebung zu treffen. Nimm an Aktivitäten teil, chatte mit anderen und verabrede dich im echten Leben."
+        description: "JoinMe hilft dir, neue Leute in deiner Umgebung kennenzulernen – sei es durch deine Interessen oder einfach deine aktuelle Stimmung. Nimm an spontanen Treffen teil oder plane Aktivitäten im Voraus, chatte mit Mitgliedern und verwandle Kontakte in echte Erlebnisse.",
+        heroP1: "In einer Welt, die an Bildschirme gefesselt ist, war echte menschliche Interaktion noch nie so wichtig.",
+        heroP2: "hat es sich zur Aufgabe gemacht, Technologie zu einer Brücke für echte, bedeutungsvolle Begegnungen im realen Leben zu machen.",
+        heroP3a: "Bei",
+        heroP3b: "beginnt alles mit dir — veranstalte eigene Aktivitäten oder schließe dich inspirierenden in deiner Nähe an. Gefällt dir die Idee? Lade die App herunter und leg los."
     },
     safety: {
         title: "Sicherheitsrichtlinien",

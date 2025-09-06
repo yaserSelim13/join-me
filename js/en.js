@@ -15,7 +15,11 @@ const translations_en = {
     },
     index: {
         heading: "How JoinMe Works",
-        description: "JoinMe helps you meet new people in your area based on your interests. Join activities, chat with members, and enjoy real-life meetups."
+        description: "JoinMe helps you meet new people in your area — whether through your interests or simply your mood. Take part in spontaneous meetups or plan activities in advance, chat with members, and turn connections into real-life experiences.",
+        heroP1: "In a world glued to screens, real human interaction has never been more important.",
+        heroP2: "is on a mission to turn technology into a bridge for meaningful, real-life connections.",
+        heroP3a: "At",
+        heroP3b: ", it all starts with you — host activities or join inspiring ones around you. Like the idea? Download the app and dive in."
     },
     safety: {
         title: "Safety Standards",
