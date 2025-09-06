@@ -105,8 +105,8 @@ nav a:hover {
     border-radius: 6px;
     border: 1px solid #ccc;
     background: white;
-    min-width: 50px;
-    max-width: 90px;
+    min-width: 3rem;
+    max-width: 5rem;
     appearance: none;
     cursor: pointer;
 }
@@ -120,7 +120,7 @@ nav a:hover {
     .lang-menu select {
         font-size: 0.9rem;
         padding: 0.3rem 0.5rem;
-        min-width: 30px;
+        min-width: 2rem;
     }
 }
 
